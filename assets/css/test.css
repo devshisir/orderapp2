@@ -1,0 +1,149 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+p {
+  font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif; }
+
+/*-- this is login area design --*/
+#loginArea {
+  min-height: 100vh;
+  width: 100%;
+  background: #f9fbfc;
+  position: relative; }
+  #loginArea .loginContainet {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px; }
+    #loginArea .loginContainet .loginContainetTop h3 {
+      font-weight: 600;
+      font-size: 20px;
+      color: #232323; }
+    #loginArea .loginContainet .loginMaiForm {
+      margin-top: 30px; }
+      #loginArea .loginContainet .loginMaiForm .userName input {
+        width: 100%;
+        background: #fff;
+        border: none;
+        border: 0.5px solid #a8a8a84f;
+        padding: 12px 14px;
+        border-radius: 3px;
+        font-weight: 600;
+        transition: 0.3s; }
+        #loginArea .loginContainet .loginMaiForm .userName input:focus {
+          border-color: #55bb56;
+          background: #e8f0fe54; }
+      #loginArea .loginContainet .loginMaiForm .userPassword input {
+        width: 100%;
+        background: #fff;
+        border: none;
+        border: 0.5px solid #a8a8a84f;
+        padding: 12px 14px;
+        border-radius: 3px;
+        font-weight: 600;
+        transition: 0.3s;
+        margin-top: 20px; }
+        #loginArea .loginContainet .loginMaiForm .userPassword input:focus {
+          border-color: #55bb56;
+          background: #e8f0fe54; }
+    #loginArea .loginContainet .loginRember {
+      margin-top: 20px; }
+      #loginArea .loginContainet .loginRember .span_pseudo, #loginArea .loginContainet .loginRember .chiller_cb span:before, #loginArea .loginContainet .loginRember .chiller_cb span:after {
+        content: "";
+        display: inline-block;
+        background: #fff;
+        width: 0;
+        height: 0.2rem;
+        position: absolute;
+        transform-origin: 0% 0%; }
+      #loginArea .loginContainet .loginRember .chiller_cb {
+        position: relative;
+        height: 2rem;
+        display: flex;
+        align-items: center; }
+      #loginArea .loginContainet .loginRember .chiller_cb input {
+        display: none; }
+      #loginArea .loginContainet .loginRember .chiller_cb input:checked ~ span {
+        background: #55bb56;
+        border-color: #55bb56; }
+      #loginArea .loginContainet .loginRember .chiller_cb input:checked ~ span:before {
+        width: 1rem;
+        height: 0.15rem;
+        transition: width 0.1s;
+        transition-delay: 0.3s; }
+      #loginArea .loginContainet .loginRember .chiller_cb input:checked ~ span:after {
+        width: 0.4rem;
+        height: 0.15rem;
+        transition: width 0.1s;
+        transition-delay: 0.2s; }
+      #loginArea .loginContainet .loginRember .chiller_cb input:disabled ~ span {
+        background: #ececec;
+        border-color: #dcdcdc; }
+      #loginArea .loginContainet .loginRember .chiller_cb input:disabled ~ label {
+        color: #dcdcdc; }
+      #loginArea .loginContainet .loginRember .chiller_cb input:disabled ~ label:hover {
+        cursor: default; }
+      #loginArea .loginContainet .loginRember .chiller_cb label {
+        padding-left: 2rem;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        margin-bottom: 0;
+        color: #232323; }
+      #loginArea .loginContainet .loginRember .chiller_cb span {
+        display: inline-block;
+        width: 1.2rem;
+        height: 1.2rem;
+        border: 2px solid #ccc;
+        position: absolute;
+        left: 0;
+        transition: all 0.2s;
+        z-index: 1;
+        box-sizing: content-box; }
+      #loginArea .loginContainet .loginRember .chiller_cb span:before {
+        transform: rotate(-55deg);
+        top: 1rem;
+        left: 0.37rem; }
+      #loginArea .loginContainet .loginRember .chiller_cb span:after {
+        transform: rotate(35deg);
+        bottom: 0.35rem;
+        left: 0.2rem; }
+      #loginArea .loginContainet .loginRember label {
+        font-weight: 600;
+        color: #232323; }
+      #loginArea .loginContainet .loginRember .loginRemberForgote a {
+        color: #9b9b9b; }
+        #loginArea .loginContainet .loginRember .loginRemberForgote a:hover {
+          text-decoration: underline; }
+    #loginArea .loginContainet .loginButton {
+      margin-top: 20px; }
+      #loginArea .loginContainet .loginButton button {
+        width: 100%;
+        border: none;
+        background: #55bb56;
+        color: #fff;
+        font-weight: 400;
+        font-size: 16px;
+        padding: 8px 0px;
+        border-radius: 2px;
+        transition: 0.4s;
+        outline: none; }
+        #loginArea .loginContainet .loginButton button:hover {
+          background-color: #49a94a;
+          box-shadow: none; }
+    #loginArea .loginContainet .loginIfoBottom {
+      margin-top: 25px; }
+      #loginArea .loginContainet .loginIfoBottom h4 {
+        font-weight: 600;
+        font-size: 14px; }
+        #loginArea .loginContainet .loginIfoBottom h4 a {
+          margin-left: 5px;
+          transition: 0.4s;
+          color: #55bb56; }
+          #loginArea .loginContainet .loginIfoBottom h4 a:hover {
+            text-decoration: underline; }
